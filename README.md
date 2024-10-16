@@ -1,10 +1,10 @@
 # Probabilistic Record Linkage
-%md
-###### Intent: 
+
+##### Intent: 
 
 Our objective is to facilitate the creation and upkeep of a `person entity` table. This entails distinguishing between records in incoming files that correspond to individuals already present in our table and those that denote the creation of a new person entity.
 
-###### Approach:
+##### Approach:
 
 Without a unique identifier, accurately categorizing pairs of records as belonging to the same entity becomes difficult. We utilize `probabilistic record linkage`, a method that leverages non-unique variables such as name and address to assess the likelihood that a pair of records corresponds to the same entity. This approach considers supporting and opposing evidence for a match, assigning appropriate weights to each factor. The term "probabilistic" underscores the inherent uncertainty of this process, which relies on evaluating the overall balance of evidence.</br>
 
@@ -12,7 +12,7 @@ We implement the `Fellegi-Sunter Probabilistic Linkage Model`. This model was in
 
 
 
-###### problem statement:  
+##### problem statement:  
 Consider two samples, A and B, denoted by their respective elements a and b. It is assumed that A and B originate from the same population albeit with errors and incompleteness due to factors such as sampling methods or timing.
 
 A and B represent the union of two disjoint sets:
