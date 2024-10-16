@@ -12,7 +12,10 @@ This approach considers supporting and opposing evidence for a match, assigning 
 
 We implement the `Fellegi-Sunter Probabilistic Linkage Model`. This model was introduced in Ivan Fellegi and Alan Sunter's seminal 1969 [paper](https://courses.cs.washington.edu/courses/cse590q/04au/papers/Felligi69.pdf).
 
-- 🤖 - 🤖 - 🤖 - 🤖 - 🤖 - 🤖 - 🤖 - 🤖 - THEORY - 🤖 - 🤖 - 🤖 - 🤖 - 🤖 - 🤖 - 🤖 - 🤖 -
+
+
+
+ 🤖  -  🤖  -  🤖  -  🤖  -  🤖  -  🤖  -  🤖  -  🤖  -  **THEORY**  -  🤖  -  🤖  -  🤖  -  🤖  -  🤖  -  🤖  -  🤖  -  🤖 
 
 
 ##### problem statement:  
