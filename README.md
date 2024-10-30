@@ -1,4 +1,4 @@
-# Probabilistic Record Linkage
+# Probabilistic Record Linkage Model for Entity Resolution
 
 ##### Intent: 
 
