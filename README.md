@@ -23,8 +23,8 @@ Consider two samples, A and B, denoted by their respective elements a and b. It 
 
 A and B represent the union of two disjoint sets:
 
-Matched Set (M): {(a,b), a = b, a ∈ A, b ∈ B}</br>
-Unmatched Set (U): {(a, b); a ≠ b, a ∈ A, b ∈ B}
+`Matched Set (M): {(a,b), a = b, a ∈ A, b ∈ B}`</br>
+`Unmatched Set (U): {(a, b); a ≠ b, a ∈ A, b ∈ B}`
 
 Our task is to classify each record pair (a,b) as belonging to either the Matched Set (M) or the Unmatched Set (U).
 
