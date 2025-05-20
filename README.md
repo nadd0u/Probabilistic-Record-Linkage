@@ -34,7 +34,8 @@ Our task is to classify each record pair (a,b) as belonging to either the Matche
 Γ represents the set containing all pairwise comparisons between elements of sets A and B. A significant hurdle in record linkage arises from the scale of the problem, as the size of Γ increases roughly quadratically with the number of records. This necessitates substantial computational resources and incurs high costs. To mitigate this challenge, we employ a method known as "blocking" to confine Γ to a subset Γ', where pairs outside the block are deemed Not Matched.
 
 ##### comparison vector: (γ)
-The comparison vector (γ) serves as the metric of similarity, representing the evidence that our model evaluates when determining whether a pair of records constitute a match. For each pair (a, b) within Γ, we create a comparison vector γ[a,b], which comprises various comparisons and their corresponding levels (e.g., 'first name: exact match'). The decision function \\(d(γ)\\) then assesses the evidence contained within each comparison vector to make a prediction regarding whether a pair qualifies as a "match".
+The comparison vector (γ) serves as the metric of similarity, representing the evidence that our model evaluates when determining whether a pair of records constitute a match.</br> 
+For each pair (a, b) within Γ, we create a comparison vector γ[a,b], which comprises various comparisons and their corresponding levels (e.g., 'first name: exact match'). The decision function \\(d(γ)\\) then assesses the evidence contained within each comparison vector to make a prediction regarding whether a pair qualifies as a "match".
 
 ##### match weights: ω
 The "partial match weight" (\\(ω_i\\)) quantifies the relative importance of each piece of evidence \\(γ_i\\) in influencing decision d(γ)
